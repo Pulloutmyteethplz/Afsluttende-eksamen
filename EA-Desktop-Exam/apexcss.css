@@ -1,0 +1,678 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.background{
+	margin: 0px;
+	padding: 0px;
+	background-color: #2c373f;
+	width: 100%;
+	height: 1125vh;
+
+}
+
+.logo img{
+	float: left;
+	width: 80px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.tab{
+	width: 100%;
+	height: 100px;
+	background-color: #1e262c;
+}
+
+.tab {
+	margin: 0;
+	margin-top: 0px;
+	padding: 0;
+	font-family: "Segoe UI Semibold"; 
+	}
+
+.profil img{
+	float: left;
+	width: 60px;
+	height: auto;
+	margin-left: 1320px;
+	margin-top: 23px;
+}
+
+.Keldenavn{
+	float: left;
+	width: 10px;
+	height: auto;
+	margin-left: 1220px;
+	margin-top: -48px;
+	width: 15px;
+	color: white;
+
+}
+
+.brugernavn{
+	float: left;
+	width: 10px;
+	height: auto;
+	margin-left: 1220px;
+	margin-top: -32px;
+	width: 6px;
+	color: gray;
+	font-size: 13px;
+}
+
+.line img{
+	float: left;
+	width: 10px;
+	height: auto;
+	margin-left: 1205px;
+	margin-top: -43px;
+	width: 10px;
+}
+
+.btn {
+  background-color: #ff4747;
+  border: none;
+  color: white;
+  padding: 6px 11px;
+  cursor: pointer;
+  font-size: 17px;
+  font-family:'IBM Plex Sans', sans-serif;
+  border-radius: 5px;
+  float: right;
+  list-style-type: none;
+  margin-top: -45px;
+  margin-right: 220px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #bd3434;
+}
+
+.container {
+    margin-top: -43px;
+}
+
+.btn:hover {
+    color: #fff
+}
+
+.searchbar{
+	float: right;
+	list-style-type: none;
+	margin-right: 1220px;
+	margin-top: -43px;
+}
+
+.searchtool img{
+	float: right;
+	list-style-type: none;
+	margin-right: 1192px;
+	margin-top: -40px;
+}
+
+nav{
+	width: 100%;
+	height: 90px;
+	text-emphasis-position: center;
+	background-color: #2c373f;
+}
+
+ul{
+	margin-left: 110px;
+	padding-top: 35px;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	font-family:'IBM Plex Sans', sans-serif;
+	color: white;
+	padding: 0 17px;
+}
+
+ul li a:hover{
+	color: #ff4747;	
+}
+
+ul li.active a{
+	color: #ff4747;
+}
+
+.apexlogo{
+	margin-left: 100px;
+	margin-top: -50px;
+}
+
+.textone{
+	margin-left: 100px;
+	margin-top: 30px;
+	font-family:'IBM Plex Sans', sans-serif;
+	color: white;
+}
+
+.vidone{
+	margin-left: 1px;
+}
+
+.coverone{
+	margin-top: -7920px;
+}
+
+.textone{
+	margin-top: 0px;
+	font-family: "Segoe UI";
+}
+
+.apexlogo{
+	margin-top: -540px;
+}
+
+.vids{
+	margin-top: 190px;
+}
+
+.backcover{
+	margin-top: -260px;
+}
+
+.readmore{
+	margin-left: 100px;
+	margin-top: 0px;
+	font-family: "Segoe UI";
+	color: lightblue;
+}
+
+.getthegame{
+	margin-left: 80px;
+	margin-top: 0px;
+}
+
+.platform{
+	margin-left: 100px;
+    font-family:'IBM Plex Sans', sans-serif;
+	color: white;
+	font-size: 10px;
+}
+
+.windows{
+	margin-left: 160px;
+	margin-top: -15px;
+}
+
+.covertwo{
+	margin-top: -5px;
+}
+
+.Raiders{
+	margin-left: 235px;
+	margin-top: -390px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.Raiderstext{
+	margin-left: 130px;
+	font-size: 15px;
+	color: white;
+	font-family: "Segoe UI";
+	margin-top: 10px;
+	padding: 20px;
+}
+
+.coverthree{
+	margin-top: 200px;
+}
+
+.coverfour{
+	margin-top: -5px;
+}
+
+.coverfive{
+	margin-top: -5px;
+}
+
+.coversix{
+	margin-top: -5px;
+}
+
+.coverseven{
+	margin-top: -5px;
+}
+
+.eaplay{
+	margin-left: 903px;
+	margin-top: -2880px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.eaplaytext{
+	margin-left: 900px;
+	font-size: 15px;
+	color: white;
+	font-family: "Segoe UI";
+	margin-top: 10px;
+}
+
+.map{
+	margin-left: 610px;
+	margin-top: 500px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.maptext{
+	margin-left: 500px;
+	font-size: 15px;
+	color: white;
+	font-family: "Segoe UI";
+	margin-top: 10px;
+}
+
+.legend{
+	margin-left: 230px;
+	margin-top: 550px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.legendtext{
+	margin-left: 150px;
+	font-size: 15px;
+	color: white;
+	font-family: "Segoe UI";
+	margin-top: 10px;
+}
+
+.car{
+	margin-left: 260px;
+	margin-top: 1130px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.cartext{
+	margin-left: 90px;
+	font-size: 15px;
+	color: white;
+	font-family: "Segoe UI";
+	margin-top: 10px;
+}
+
+.battle{
+	margin-left: 1113px;
+	margin-top: -730px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.battletext{
+	margin-left: 903px;
+	font-size: 15px;
+	color: white;
+	font-family: "Segoe UI";
+	margin-top: 10px;
+}
+
+.characters{
+	margin-left: 650px;
+	margin-top: 960px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.characterstext{
+	margin-left: 500px;
+	font-size: 15px;
+	color: white;
+	font-family: "Segoe UI";
+	margin-top: 10px;
+}
+
+.heart{
+	margin-left: 330px;
+	margin-top: -140px;
+}
+
+.backgroundtwo{
+	margin: 0px;
+	padding: 0px;
+	background-color: #2c373f;
+	width: 100%;
+	height: 200vh;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.box{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 20px 10px;
+}
+
+.model{
+	height: 330px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.characterss{
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	text-align: center
+}
+.details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	color: darkgray;
+	font-family: "Segoe UI"
+}
+
+.details pre{
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.box1{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 250px;
+	margin-top: -470px;
+}
+
+.box2{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 490px;
+	margin-top: -450px;
+}
+
+.box3{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 730px;
+	margin-top: -450px;
+}
+
+.box4{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 970px;
+	margin-top: -450px;
+}
+
+.box5{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 1210px;
+	margin-top: -450px;
+}
+
+.box6{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 10px;
+	margin-top: -60px;
+}
+
+.box7{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 250px;
+	margin-top: -450px;
+}
+
+.box8{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 490px;
+	margin-top: -450px;
+}
+
+.box9{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 740px;
+	margin-top: -450px;
+}
+
+.box9{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 735px;
+	margin-top: -450px;
+}
+
+.box10{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 975px;
+	margin-top: -450px;
+}
+
+.box11{
+	width: 300px;
+	height: 450px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-left: 1210px;
+	margin-top: -450px;
+}
+
+.extra{
+	margin-left: 680px;
+	margin-top: 30px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.ex1{
+	margin-left: 45px;
+	margin-top: 30px;
+}
+
+.ex2{
+	margin-left: 225px;
+	margin-top: -228px;
+}
+
+.ex3{
+	margin-left: 405px;
+	margin-top: -228px;
+}
+
+.ex4{
+	margin-left: 585px;
+	margin-top: -228px;
+}
+
+.ex5{
+	margin-left: 765px;
+	margin-top: -228px;
+}
+
+.ex6{
+	margin-left: 945px;
+	margin-top: -226px;
+}
+
+.ex7{
+	margin-left: 1130px;
+	margin-top: -225px;
+}
+
+.ex8{
+	margin-left: 1313px;
+	margin-top: -225px;
+}
+
+.coins{
+	margin-left: 680px;
+	margin-top: 30px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.coin1{
+	margin-left: 320px;
+	margin-top: 30px;
+}
+
+.coin2{
+	margin-left: 500px;
+	margin-top: -224px;
+}
+
+.coin3{
+	margin-left: 680px;
+	margin-top: -224px;
+}
+
+.coin4{
+	margin-left: 860px;
+	margin-top: -224px;
+}
+
+.coin5{
+	margin-left: 1040px;
+	margin-top: -224px;
+}
+
+.overview{
+	margin-left: 28px;
+	margin-top: 150px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+} 
+
+.overview1{
+	margin-left: 28px;
+	margin-top: 10px;
+	width: 300px;
+}
+
+.des1{
+	margin-left: 28px;
+	margin-top: 60px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+} 
+
+.des2{
+	margin-left: 28px;
+	margin-top: 10px;
+	width: 300px;
+}
+
+.system1{
+	margin-left: 28px;
+	margin-top: 60px;
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI";
+} 
+
+.system2{
+	margin-left: 28px;
+	margin-top: 10px;
+	width: 300px;
+}
+
+.under{
+	margin-top: 50px;
+}

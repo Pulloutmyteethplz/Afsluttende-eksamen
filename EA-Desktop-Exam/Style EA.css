@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+.background{
+	margin: 0px;
+	padding: 0px;
+	background-color: #2c373f;
+	width: 100%;
+	height: 100vh;
+}
+
+.logo img{
+	float: left;
+	width: 80px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
+.tab{
+	width: 100%;
+	height: 100px;
+	background-color: #1e262c;
+}
+
+.tab {
+	margin: 0;
+	margin-top: 40px;
+	padding: 0;
+	font-family: "Segoe UI Semibold"; 
+	}
+
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+	margin-right: 0px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+.tabsearch{
+	margin-left: 20px;
+}
+
+.btn {
+  background-color: #ff4747;
+  border: none;
+  color: white;
+  padding: 6px 11px;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: "Segoe UI Semibold";
+  border-radius: 5px;
+  float: right;
+  list-style-type: none;
+  margin-top: 34px;
+  margin-right: 0px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #bd3434;
+}
+
+.container {
+    margin-top: 200px
+}
+
+.btn:hover {
+    color: #fff
+}
+
+.input-text:focus {
+    box-shadow: 0px 0px 0px;
+    border-color: #f8c146;
+    outline: 0px
+}
+
+.form-control {
+    border: 1px solid #f8c146
+}
+
+.searchbar{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+	margin-right: 870px;
+}
+
+.searchtool img{
+	float: right;
+	list-style-type: none;
+	margin-top: -20px;
+	margin-right: 790px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    position: inherit;
+    width: 80%;
+    overflow: hidden;
+}
+.images {
+    display: flex;
+    width: 150%;
+	height: 60%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid #ff4747 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #ff4747;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
